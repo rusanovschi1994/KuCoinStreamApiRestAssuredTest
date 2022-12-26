@@ -1,4 +1,4 @@
-package apiTest;
+package pojo.util;
 
 import pojo.TickerData;
 

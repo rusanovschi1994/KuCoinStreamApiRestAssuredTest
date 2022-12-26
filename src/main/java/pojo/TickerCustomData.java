@@ -1,14 +1,14 @@
 package pojo;
 
-public class TickerShortData {
+public class TickerCustomData {
 
     private String name;
     private float changeRate;
 
-    public TickerShortData() {
+    public TickerCustomData() {
     }
 
-    public TickerShortData(String name, float changeRate) {
+    public TickerCustomData(String name, float changeRate) {
         this.name = name;
         this.changeRate = changeRate;
     }
@@ -17,7 +17,7 @@ public class TickerShortData {
         return name;
     }
 
-    public float getChangeRate() {
+    public Float getChangeRate() {
         return changeRate;
     }
 }
